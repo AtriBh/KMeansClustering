@@ -13,9 +13,6 @@ Perform unsupervised clustering using K-Means to identify customer segments base
 ## Methodology
 ### 1. Data Preprocessing & Visualization
 - Analyzed features: `Age`, `Annual Income`, `Spending Score`
-- Applied PCA for 2D visualization
-
-[![Feature Distribution](Screenshot%202025-06-06%20184505.png)]
 
 ### 2. Elbow Method for Optimal K
 - Computed WCSS for K=2 to K=10
@@ -28,6 +25,8 @@ Perform unsupervised clustering using K-Means to identify customer segments base
 ### 3. Cluster Visualization
 #### 3D Clustering (Age, Income, Spending)
 [![3D Clusters](Screenshot%202025-06-06%20184522.png)]
+
+[![3D Clusters 2](Screenshot%202025-06-06%20184505.png)]
 
 #### 2D Clustering (Income vs Spending Score)
 [![2D Clusters](Screenshot%202025-06-06%20184539.png)]
